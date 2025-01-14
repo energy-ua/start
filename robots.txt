@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://energy-ua.github.io/start/sitemap.xml

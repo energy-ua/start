@@ -1,0 +1,171 @@
+/* Общие стили */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+  .section__image { 
+    width: 100%;
+    height: auto;
+  }
+}
+
+.section__image { 
+  max-width: 80%; 
+  height: auto; 
+  display: block;
+  margin: 0 auto; 
+}
+
+/* Стили шапки */
+.header {
+  background-color: #f8f8f8;
+  padding: 20px 0; 
+  text-align: center;
+}
+
+.header__inner {
+  display: inline-block; 
+  align-items: center; 
+}
+
+.header__logo {
+  width: 50px;
+  margin: 0 auto 10px; 
+}
+
+.header__title {
+  font-size: 20px; 
+  margin: 0;
+}
+
+.header__subtitle {
+  font-size: 14px; 
+  color: #777; 
+  margin: 0; 
+}
+
+/* Стили секций */
+.section {
+  padding: 40px 0;
+}
+
+.section__link {
+  display: block;
+  background-color: #20bf6b;
+  color: #fff;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.section__text {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section__title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section__footer {
+  font-size: 16px;
+  text-align: center;
+  color: #777;
+}
+
+/* Стили особенностей */
+.features {
+  display: flex;
+  flex-direction: column; 
+}
+
+.feature {
+  border: 1px solid #ddd; 
+  padding: 20px;
+  margin-bottom: 10px; 
+  border-radius: 5px; 
+  text-align: left; 
+  background-color: #f9f9f9; 
+}
+
+.feature__icon {
+  font-size: 24px; /* Уменьшаем размер иконок */
+  margin-bottom: 10px; 
+  display: inline-block; /* Размещаем иконку в строке с заголовком */
+  margin-right: 10px; /* Добавляем отступ справа от иконки */
+}
+
+.feature__title {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: inline-block; /* Размещаем заголовок в строке с иконкой */
+}
+
+.feature__content {
+  padding-left: 40px; /* Добавляем отступ слева */
+}
+
+.section__link {
+  display: block;
+  background-color: #20bf6b;
+  color: #fff;
+  text-align: center;
+  padding: 15px 20px; /* Отступы внутри кнопки */
+  text-decoration: none;
+  border-radius: 10px; /* Закругление углов */
+  margin-top: 40px; /* Отступ сверху */
+  margin-bottom: 20px; /* Отступ снизу */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+
+
+/* Стили галереи изображений */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-gallery__item {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+/* Стили секции "Вопрос-ответ" */
+.qa-section {
+  /* Добавьте стили для всей секции, если нужно */
+}
+
+.qa-item {
+  margin-bottom: 20px; 
+}
+
+.qa-question {
+  background-color: #f0f0f0; /* Выделение фона для вопроса */
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.qa-answer {
+  background-color: #f9f9f9; /* Выделение фона для ответа */
+  border-left: 5px solid #ccc; 
+  padding: 10px; 
+  margin-left: 20px; 
+}
