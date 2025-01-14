@@ -37,8 +37,8 @@ body {
 }
 
 .header__logo {
-  width: 50px;
-  margin: 0 auto 10px; 
+  width: 100px;
+  height: auto;
 }
 
 .header__title {
